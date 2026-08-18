@@ -23,7 +23,7 @@ flowchart LR
     PM ==> TR
     TR --> RUN["<code>uv run train.py > run.log 2>&1</code><br/><b>5 min fixed wall-clock</b><br/><i>output redirected, never teed</i>"]
     PR --> RUN
-    RUN --> GREP["<code>grep '^val_bpb:|^peak_vram_mb:'</code><br/><b>~2 lines into context</b>"]
+    RUN --> GREP["<code>grep val_bpb + peak_vram_mb</code><br/><b>~2 lines into context</b>"]
     GREP --> D{"empty?"}
     D -- "yes = crash" --> CR["<code>tail -50 run.log</code><br/>fix if mechanical<br/>else log 'crash', move on"]
     D -- "no" --> B{"val_bpb<br/>lower?"}
