@@ -1,9 +1,9 @@
-# graph-engineering-graph
+# graph-engineering-map
 
 A merged mental map of two things that turn out to be the same story told at two scales:
 
 1. **`auto-research-map`** — what Andrej Karpathy's [`karpathy/autoresearch`](https://github.com/karpathy/autoresearch) actually does, what it's good for, and whether it burns a ton of tokens.
-2. **`graph-engineering-map`** — an OCR'd, restructured reading of *Graph Engineering: The Karpathy Loop, Improved 1000x by Itself — The Anthropic Playbook* (independent synthesis, July 2026).
+2. **`paper-map`** — an OCR'd, restructured reading of *Graph Engineering: The Karpathy Loop, Improved 1000x by Itself — The Anthropic Playbook* (independent synthesis, July 2026).
 
 The connective tissue: **each architecture externalizes a different bottleneck.** A loop externalizes iteration. A swarm externalizes parallel search. A DAG externalizes lineage. A knowledge graph externalizes shared facts. autoresearch is the smallest possible instance of the first one — and the paper is the map of what comes after it.
 
@@ -188,7 +188,7 @@ So: **budget for tokens the way you budget for the GPU, not as an afterthought �
 
 ---
 
-# Part 2 — `graph-engineering-map`
+# Part 2 — the Graph Engineering paper
 
 *Graph Engineering: The Karpathy Loop, Improved 1000x by Itself — The Anthropic Playbook.* Independently compiled, July 2026, based on Anthropic's Knowledge Graph Construction Cookbook and Karpathy's public talks. Not affiliated with or endorsed by either. 11 pages, 12 references, 6 tables.
 
